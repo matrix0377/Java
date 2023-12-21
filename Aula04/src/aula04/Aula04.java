@@ -18,9 +18,5 @@ public class Aula04 {
         Caneta c3 = new Caneta("FiberCastell", "Laranja", 1.5f);
         c2.status();
         System.out.println("--------------");
-
-
-
-
     }
 }
