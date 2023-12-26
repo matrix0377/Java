@@ -17,16 +17,44 @@ public class UltraEmojiCombat {
 
         l[5] = new Lutador("Nerdaard", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
 
+        // l.apresentar();
+        // l[5].status();
+        // l[5].apresentar();
+        // l[5].empatarLuta();
+        // l[5].empatarLuta();
+        // l[5].empatarLuta();
+        // l[5].empatarLuta();
+        // l[5].ganharLuta();
+        // l[5].ganharLuta();
+        // l[5].status();
 
-        //l.apresentar();
-        l[5].status();
-        //l[5].apresentar();
-        l[5].empatarLuta();
-        l[5].empatarLuta();
-        l[5].empatarLuta();
-        l[5].empatarLuta();
-        l[5].ganharLuta();
-        l[5].ganharLuta();
-        l[5].status();
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(l[0], l[1]);
+        UEC01.lutar();
+        l[0].status();
+        l[1].status();
+
+        // validando as regras (desafiado e desafiante devem ser lutadores diferentes.)
+        // Luta UEC01 = new Luta();
+        // UEC01.marcarLuta(l[1], l[1]);
+        // UEC01.lutar();
+        // resultado: a luta não pode acontecer!
+        // Ok
+
+        // validando as regras (Só pode ser marcada entre lutadores da mesma categoria.)
+        // Luta UEC01 = new Luta();
+        // UEC01.marcarLuta(l[1], l[5]);
+        // UEC01.lutar();
+        // resultado: a luta não pode acontecer!
+        // Ok
+
+
+
+
+
+
+
+
+
     }
 }
