@@ -152,8 +152,7 @@ Classe ContaBanco
     publico Metodo getStatus()
         retorne status
     FimMetodo
-  
-FimClasse
+  FimClasse
 
 
 
