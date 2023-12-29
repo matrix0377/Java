@@ -1,7 +1,7 @@
 Projeto em Java 
 Programação Orientada a Objetos
 
-Conceitos apliados:
+Conceitos aplicados:
 - Diagrama de Classe
 - Algorítmo
 - Pilar Encapsulamento
