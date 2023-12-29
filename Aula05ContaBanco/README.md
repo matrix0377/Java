@@ -1,6 +1,6 @@
 Projeto em Java Orientado a Objeto
 
-<BODY>
+<body>
 
 Exemplo do Banco
 -----------------
@@ -11,6 +11,8 @@ Exemplo do Banco
 
 <br> Diagrama de Classe
 
+
+<div>
 |-----------------------------|
 |         ContaBanco          |
 |-----------------------------|
@@ -137,8 +139,9 @@ Classe ContaBanco
         retorne status
     FimMetodo
   FimClasse
+</div>
 
-</BODY>
+</body>
 
     
 
