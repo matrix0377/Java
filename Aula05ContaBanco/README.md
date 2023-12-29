@@ -44,7 +44,7 @@ Exemplo do Banco
 
 <br> ALGORÍTMO
 
-<br>
+
     Classe ContaBanco
         // Atributos
         publico numConta: Inteiro
@@ -142,7 +142,7 @@ Exemplo do Banco
             retorne status
         FimMetodo
       FimClasse
-<br>
+
     
 
 
