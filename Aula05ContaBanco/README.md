@@ -41,8 +41,9 @@ Exemplo do Banco
 
 
 
-ALGORÍTMO
+<br> ALGORÍTMO
 
+<div>
 Classe ContaBanco
     // Atributos
     publico numConta: Inteiro
@@ -141,7 +142,7 @@ Classe ContaBanco
     FimMetodo
   FimClasse
 
-
+</div>
     
 
 
