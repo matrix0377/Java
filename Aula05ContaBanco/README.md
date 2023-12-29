@@ -45,7 +45,6 @@ Classe ContaBanco
     privado dono: Caractere
     privado saldo: Real
     privado status: Logico
-    
     // Métodos
     publico Metodo abrirConta(t:Caractere)
         setTipo(t)
@@ -56,7 +55,6 @@ Classe ContaBanco
             saldo = 150
         FimSe
     FimMetodo
-    
     publico Metodo fecharConta()
         se (saldo > 0) entao
             Escreva("Conta com dinheiro")
@@ -65,16 +63,14 @@ Classe ContaBanco
         senao
             setStatus(false)
         FimSe
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo depositar(v:Real)
         se (status = verdadeiro) entao
             saldo = saldo + v // ou setSaldo(getSaldo() + v)
         senao
             Escreva("Impossível depositar")
         FimSe
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo sacar(v:Real)
         se (status = verdadeiro) entao
             se (saldo > v) entao
@@ -85,8 +81,7 @@ Classe ContaBanco
         senao
             Escreva("Impossível sacar")
         FimSe
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo pagarMensal()
         var v: Real
         se (tipo = "CC") entao
@@ -103,52 +98,39 @@ Classe ContaBanco
         senao
             Escreva("Impossível pagar")
         FimSe
-    FimMetodo
-    
-    // Métodos Especiais
-    
+    FimMetodo    
+    // Métodos Especiais    
     publico Metodo Construtor()
         saldo = 0
         staus = falso
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo setNumConta(n:Inteiro)
         numConta = n
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo getNumConta()
         retorne numConta
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo setTipo(t:Caractere)
         tipo = t
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo getTipo()
         retorne tipo
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo setDono(d:Caractere)
         dono = d
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo getDono()
         retorne dono
-    FimMetodo
-    
-    
+    FimMetodo    
     publico Metodo setSaldo(s:Real)
         saldo = s
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo getSaldo()
         retorne saldo
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo setStatus(s:Logico)
         status = s
-    FimMetodo
-    
+    FimMetodo    
     publico Metodo getStatus()
         retorne status
     FimMetodo
