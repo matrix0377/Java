@@ -1,4 +1,10 @@
-Projeto em Java Orientado a Objeto
+Projeto em Java 
+Programação Orientada a Objetos
+
+Conceitos apliados:
+- Diagrama de Classe
+- Algorítmo
+- Pilar Encapsulamento
 
 
 
