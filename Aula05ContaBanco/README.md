@@ -40,6 +40,9 @@ Exemplo do Banco
 |-----------------------------|
 
 
+</div>
+
+<div>
 ALGORÍTMO
 
 Classe ContaBanco
