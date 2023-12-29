@@ -5,11 +5,11 @@ Projeto em Java Orientado a Objeto
 Exemplo do Banco
 -----------------
 
-CC -> Conta corrente
-CP -> Conta Poupança
+<br> CC -> Conta corrente
+<br> CP -> Conta Poupança
 
 
-Diagrama de Classe
+<br> Diagrama de Classe
 
 |-----------------------------|
 |         ContaBanco          |
