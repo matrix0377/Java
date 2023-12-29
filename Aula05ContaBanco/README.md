@@ -12,7 +12,7 @@ Exemplo do Banco
 <br> Diagrama de Classe
 
 
-<div>
+
     |-----------------------------|
     |         ContaBanco          |
     |-----------------------------|
@@ -39,12 +39,12 @@ Exemplo do Banco
     |   ...                       |
     |-----------------------------|
 
-</div>
+
 
 
 <br> ALGORÍTMO
 
-<div>
+<br>
     Classe ContaBanco
         // Atributos
         publico numConta: Inteiro
@@ -142,7 +142,7 @@ Exemplo do Banco
             retorne status
         FimMetodo
       FimClasse
-</div>
+</br>
     
 
 
