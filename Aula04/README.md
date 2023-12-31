@@ -17,8 +17,8 @@ Diagrama de Classe
     | - cor                       |
     | - tampada                   |
     |-----------------------------|
-    | + tampar()                 |
-    | + destampar()              |
+    | + tampar()                  |
+    | + destampar()               |
     |                             |
     | + getModelo()               |
     | + setModelo()               |
